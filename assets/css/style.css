@@ -1,0 +1,782 @@
+@font-face {
+    font-family: "Karla";
+    src: url("../fonts/Karla-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Karla";
+    src: url("../fonts/Karla-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+body{
+    font-family: 'Georgia';
+    font-weight: 400;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*HEADER*/
+.header{
+    height: 80px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    background: #FFFFFF;
+}
+.header__wrapper{
+    display: flex;
+    width: 1200px;
+    align-items: center;
+    margin: 0 auto;
+}
+/*Редактирование логотипа*/
+.logo{
+    margin-top: 25px;
+    margin-left: 170px;
+}
+/*Редактирование положения и вида меню*/
+.nav{
+    height: 30px;
+    margin-left: 97px;
+}
+.main_menu{
+    display: flex;
+    list-style: none;
+    margin-top: 15px;
+}
+.menu a{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    text-decoration: none;
+    transition: all .02s ease-in-out;
+    opacity: 1;
+}
+/*Анимация*/
+.menu:hover{
+    opacity: 0.6;
+}
+.menu1 a{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    text-decoration: none;
+    transition: all .02s ease-in-out;
+    opacity: 1;
+}
+/*Анимация*/
+.menu1:hover{
+    opacity: 0.6;
+}
+.menu1{
+    margin-left: 30px;
+}
+/*Редактирование иконки*/
+.img__menu{
+    margin-left: 50px;
+}
+.menu5 a{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    text-decoration: none;
+    transition: all .02s ease-in-out;
+    opacity: 1;
+    margin-left: 10px;
+}
+.menu5:hover{
+    opacity: 0.6;
+}
+.text__menu{
+    margin-left: 7px;
+    background: #1D1F2E;
+    border-radius: 10px;
+    width: 22px;
+    height: 20px;
+}
+.text__main{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*INTRO*/
+.intro{
+    height: 530px;
+}
+.wrapper{
+    margin-top: 80px; 
+    margin: 0 auto;
+    width: 1380px;
+    height: 721px;
+    margin-top: 100px;
+}
+/*Редактирование положения и вида заголовка*/
+.zagolovok_intro{
+    height: 128px;
+    width: 794px;
+    margin-left: 300px;
+    margin-top: -373px
+}
+.intro_best{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.intro_mugs{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.intro_most{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF; 
+    margin-top: 10px; 
+}
+/*Редактирование вида и положения кнопки*/
+.bth_explore{
+    height: 33px;
+    width: 231px;
+    background: #FFFFFF;
+    border: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    margin-left: 565px;
+    margin-top: 38px;
+}
+/*Анимация*/
+.bth_explore:hover{
+    background-color: antiquewhite;
+}
+
+/*ABOUT*/
+.about{
+    height: 350px;
+}
+/*Редактирование положения и вида заголовка*/
+.zagolovok_about{
+    height: 274px;
+    width: 658px;
+    margin-left: 440px;
+    margin-top: 123px; 
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.about_even{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    color: #1D1F2E;
+}
+.about_it{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(29, 31, 46, 0.7);
+    margin-top: 16px;
+}
+.about_text{
+    text-decoration: none;
+}
+.about_read{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #A25F4B;
+    margin-top: 21px;
+}
+/*Анимация*/
+.about_read:hover{
+    color:black;
+}
+.img_line_pink{
+    margin-top: -15px;
+}
+
+/*FEATURED*/
+.featured{
+    height: 869px;
+}
+.featured__wrapper{
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+/*Редактирование положения и вида заголовка*/
+.text__feat{
+    display: flex;
+    margin-left: 374px;
+}
+.text__featu{
+    margin: 0 15px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+/*Редактирование положения и вида изображений и текста*/
+.img__coffee{
+    display: flex;
+    margin-top: 100px;
+}
+.text__coffee{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #1D1F2E;
+}
+.text__coffee1{
+    margin-left: 10px;
+}
+.text__coffee1:hover{
+    box-shadow: 0 0 5px rgb(0 0 0);
+    transition: background-color ease 0.5s;
+    cursor: pointer;
+}
+.text__coffee:hover{
+    box-shadow: 0 0 5px rgb(0 0 0);
+    transition: background-color ease 0.5s;
+    cursor: pointer;
+}
+.text__coffee2{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #1D1F2E;
+    margin-top: 35px;
+}
+.cena__coffe{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(29, 31, 46, 0.7);
+    margin-top: 5px;
+}
+.cena__coff{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    text-align: center;
+    color: #A25F4B;
+    margin-top: 5px;
+}
+.cena__coffee{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: rgba(29, 31, 46, 0.4);
+}
+
+/*PRODUCTS*/
+.products{
+    height: 1845px;
+}
+.products__wrapper{
+    height: 1633px;
+    width: 960px;
+    margin:0 auto;
+}
+/*Редактирование положения и вида изображений и текста*/
+.img__coffee1{
+    display: flex;
+    margin-top: 50px;
+}
+
+/*SHOP*/
+.shop{
+    height: 560px;
+}
+.wrapper_shop{
+    width: 1240px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-top: 50px;
+}
+/*Редактирование положения и вида заголовка*/
+.text_shop{
+    display: flex;
+    margin-left: 415px;
+}
+.text_shop_buy{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    margin: 0 15px;
+}
+/*Редактирование положения изображений*/
+.block_shop{
+    height: 280px;
+    margin-left: 0px;
+    margin-top: 32px;
+}
+.magazine{
+    display: flex;
+    margin-left: -90px;
+}
+.img_three{
+    height: 280px;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+.shop_img{
+    height: 280px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.img_coffee2{
+    margin-top: 17px;
+}
+/*Редактирование положения и вида заголовка рядом с изображениями*/
+.zagolovok_shop{
+    height: 199px;
+    margin-left: 720px;
+    margin-top: -183px;
+}
+.shop_prem{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+.shop_get{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+    color: #1D1F2E;
+    margin-top: 25px;
+}
+.shop_most{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(29, 31, 46, 0.7);
+    margin-top: 25px;
+}
+/*Редактирование кнопки вида и положения*/
+.bth_shop{
+    height: 35px;
+    width: 173px;
+    margin-left: 720px;
+    margin-top: 50px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #1D1F2E;
+    border: #1D1F2E;
+    cursor: pointer;
+}
+/*Анимация*/
+.bth_shop:hover{
+    background-color: antiquewhite;
+    color: #1D1F2E;
+}
+
+/*FON*/
+/*Редактирование положения изображения*/
+.kartinka{
+    background: url("../img/FON.png") no-repeat 50% 50% / cover;
+    height: 340px;
+} 
+
+/*MUGS*/
+.behind{
+    height: 730px;
+}
+.behind_wrapper{
+    margin: 0 auto;
+    width: 940px;
+    margin-top: 100px;
+}
+/*Редактирование вида и положения заголовка*/
+.text_behind{
+    display: flex;
+    margin-left: 325px;
+}
+.text_featu{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+.behid_text{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #1D1F2E;
+    margin-top: 25px;
+}
+/*Редактирование вида и положения текста и картинок*/
+.img_mugs{
+    display: flex;
+    margin-top: 100px;
+}
+.text_behind2{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(29, 31, 46, 0.7);
+    margin-top: 14px;
+}
+.text_data{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    margin-top: 16px;
+}
+.text_behind3{
+    margin-left: 20px;
+}
+.text_coffee1:hover{
+    box-shadow: 0 0 5px rgb(0 0 0);
+    transition: background-color ease 0.5s;
+    cursor: pointer;
+}
+.text_coffee:hover{
+    box-shadow: 0 0 5px rgb(0 0 0);
+    transition: background-color ease 0.5s;
+    cursor: pointer;
+}
+
+/*BLOG*/
+.blog{
+    height: 370px;
+    margin: 0 auto;
+}
+.wrapper_blog{
+    width: 1380px;
+    margin: 0 auto;
+    background: #1D1F2E;
+    height: 370px;
+}
+/*Редактирование вида и положения заголовка*/
+.zagolovok_blog{
+    margin-left: 0px;
+    text-align: center;
+    padding-top: 100px;
+}
+.text_blog{
+    display: flex;
+    margin-left: 540px;
+}
+.blog_sign{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.blog_updates{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-left: 25px; 
+}
+.bth_email{
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+}
+/*Редактирование вида и положения строки ввода*/
+.text__input__box{
+    border: 1px solid #2F303E;
+    box-sizing: border-box;
+    border-radius: 0px;
+    width: 350px;
+    height: 54px;
+    background-color:  #1D1F2E;
+    padding: 20px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.text__input__box::placeholder{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+/*Редактирование вида и положения кнопки*/
+.bth_subscribe{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000000;    
+    width: 129px;
+    height: 54px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(29, 31, 46, 0.1);
+    border:#FFFFFF;  
+    cursor: pointer;
+    margin-left: 10px;
+}
+/*Анимация*/
+.bth_subscribe:hover{
+    background-color: antiquewhite;
+    color: #1D1F2E;
+}
+
+/*FOOTER*/
+.footer{
+    height: 361px;
+}
+.footer__wrapper{
+    height: 204px;
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    padding: 100px 0;
+    margin-left: 330px;
+}
+/*Редактирование вида и положения меню*/
+.menu__stolb{
+    display: grid;
+}
+.menu__stolb1{
+    display: grid;
+}
+.menu__text{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.7);
+    text-decoration: none;
+    margin-top: 23px;
+    opacity: 1;
+}
+/*Анимация*/
+.menu__text:hover{
+    opacity: 0.6;
+}
+.menu__text1{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.7);
+    text-decoration: none;
+    margin-top: 10px;
+    opacity: 1;
+}
+/*Анимация*/
+.menu__text1:hover{
+    opacity: 0.6;
+}
+.text__menu2{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+.text__footer{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.7);
+    margin-top: 22px;
+}
+/*Редактирование вида и положения меню*/
+.footer__text{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.3);
+    margin-top: 82px;
+}
+.menu__footer{
+    margin-left: 55px;
+}
+.follow__footer{
+    margin-left: 79px;
+}
+/*Редактирование вида и положения меню*/
+.mail__text{
+    margin-left: 83px;
+}
+.contact__text{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+.text__mail{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.7);
+    margin-top: 23px;
+}
+.us__footer{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    color: #1D1F2E;
+    margin-top: 15px;
+}
+.powered__text{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.3);
+    margin-top: 54px;
+}
+
+
+
+
